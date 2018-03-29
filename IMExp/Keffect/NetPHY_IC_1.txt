@@ -1,0 +1,801 @@
+
+*********************** Effect Of K(Small) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: NetPHY k: 1
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 46025
+influence: 8255.62
+Memory Usage: 225.223 MB
+Time used: 13.16s
+
+------------------------------------
+
+SSA
+datasets: NetPHY k: 2
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 45149
+influence: 8541.70
+Memory Usage: 230.062 MB
+Time used: 11.72s
+
+------------------------------------
+
+SSA
+datasets: NetPHY k: 5
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 44342
+influence: 8627.16
+Memory Usage: 227.328 MB
+Time used: 9.7s
+
+------------------------------------
+
+SSA
+datasets: NetPHY k: 10
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 43367
+influence: 9091.58
+Memory Usage: 229.812 MB
+Time used: 9.18s
+
+------------------------------------
+
+SSA
+datasets: NetPHY k: 20
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 41728
+influence: 9496.56
+Memory Usage: 228.254 MB
+Time used: 8.76s
+
+------------------------------------
+
+SSA
+datasets: NetPHY k: 50
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 39713
+influence: 10421.70
+Memory Usage: 227.211 MB
+Time used: 6.85s
+
+------------------------------------
+
+SSA
+datasets: NetPHY k: 100
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 75736
+influence: 11240.94
+Memory Usage: 430.535 MB
+Time used: 14.76s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: NetPHY k: 1
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 39111
+influence: 8393.09
+Memory Usage: 228.941 MB
+Time used: 9.11s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY k: 2
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 38467
+influence: 8519.41
+Memory Usage: 230.699 MB
+Time used: 12.15s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY k: 5
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 37595
+influence: 8760.91
+Memory Usage: 231.43 MB
+Time used: 11.51s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY k: 10
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 36915
+influence: 9043.28
+Memory Usage: 229.984 MB
+Time used: 9.98s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY k: 20
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 36407
+influence: 9273.64
+Memory Usage: 223.812 MB
+Time used: 7.74s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY k: 50
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 33786
+influence: 10336.24
+Memory Usage: 227.875 MB
+Time used: 6.64s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY k: 100
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 32562
+influence: 11517.74
+Memory Usage: 229.422 MB
+Time used: 6.52s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: NetPHY k: 1
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 24000
+influence: 8105.76
+Memory: 658.766 MB
+Time used: 24.83s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY k: 2
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 24000
+influence: 8296.18
+Memory: 668.504 MB
+Time used: 25.22s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY k: 5
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 24000
+influence: 8525.29
+Memory: 662.309 MB
+Time used: 25.34s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY k: 10
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 24000
+influence: 9008.30
+Memory: 671.172 MB
+Time used: 25.55s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY k: 20
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 24000
+influence: 9277.66
+Memory: 662.414 MB
+Time used: 25.01s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY k: 50
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 24000
+influence: 10285.47
+Memory: 669.816 MB
+Time used: 25.38s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY k: 100
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 24000
+influence: 11138.46
+Memory: 668.777 MB
+Time used: 26.02s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: NetPHY k: 1
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 35628
+influence: 8073.37
+Memory Usage: 620.844 MB
+Time used:  7.343286s
+
+------------------------------------
+
+IMM
+datasets: NetPHY k: 2
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 44627
+influence: 8153.77
+Memory Usage: 838.715 MB
+Time used:  7.751460s
+
+------------------------------------
+
+IMM
+datasets: NetPHY k: 5
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 68880
+influence: 8371.93
+Memory Usage: 1186.21 MB
+Time used:  9.043198s
+
+------------------------------------
+
+IMM
+datasets: NetPHY k: 10
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 99786
+influence: 8696.96
+Memory Usage: 1790.52 MB
+Time used:  7.758621s
+
+------------------------------------
+
+IMM
+datasets: NetPHY k: 20
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 152600
+influence: 9058.12
+Memory Usage: 2474.01 MB
+Time used:  3.926625s
+
+------------------------------------
+
+IMM
+datasets: NetPHY k: 50
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 272837
+influence: 9882.84
+Memory Usage: 4582.73 MB
+Time used:  51.641609s
+
+------------------------------------
+
+IMM
+datasets: NetPHY k: 100
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 424267
+influence: 10731.2
+Memory Usage: 7547.13 MB
+Time used:  64.291495s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: NetPHY k: 1
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 163305
+Influence: 8065.97
+Memory Usage: 3001.9 MB
+Time used: 91.2375s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY k: 2
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 218812
+Influence: 8169.15
+Memory Usage: 3865.85 MB
+Time used: 119.253s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY k: 5
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 352023
+Influence: 8394.54
+Memory Usage: 6395.29 MB
+Time used: 194.784s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY k: 10
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 535058
+Influence: 8686.9
+Memory Usage: 8981.54 MB
+Time used: 290.746s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY k: 20
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 809466
+Influence: 9114.14
+Memory Usage: 14277 MB
+Time used: 439.048s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY k: 50
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 1443351
+Influence: 9925.01
+Memory Usage: 26220.9 MB
+Time used: 785.398s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY k: 100
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 2191840
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of K(Small) Over ***********************
+
+
+*********************** Effect Of K(Large) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: NetPHY k: 2500
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 228390
+influence: 22481.62
+Memory Usage: 2352.96 MB
+Time used: 115.92s
+
+------------------------------------
+
+SSA
+datasets: NetPHY k: 5000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 212213
+influence: 27793.32
+Memory Usage: 2350.65 MB
+Time used: 116.38s
+
+------------------------------------
+
+SSA
+datasets: NetPHY k: 10000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 200099
+influence: 33557.49
+Memory Usage: 2346.61 MB
+Time used: 113.87s
+
+------------------------------------
+
+SSA
+datasets: NetPHY k: 20000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 124290
+influence: 37154.00
+Memory Usage: 1627.53 MB
+Time used: 67.36s
+
+------------------------------------
+
+SSA
+datasets: NetPHY k: 50000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: NetPHY k: 2500
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 212160
+influence: 22431.99
+Memory Usage: 2354.05 MB
+Time used: 112.92s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY k: 5000
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 199217
+influence: 27775.00
+Memory Usage: 2350.15 MB
+Time used: 115.33s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY k: 10000
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 189226
+influence: 33629.94
+Memory Usage: 2355.38 MB
+Time used: 115.58s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY k: 20000
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 116442
+influence: 37154.00
+Memory Usage: 1622.65 MB
+Time used: 66.83s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY k: 50000
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: NetPHY k: 2500
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 96000
+influence: 22831.13
+Memory: 2516.3 MB
+Time used: 106.41s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY k: 5000
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 96000
+influence: 28296.25
+Memory: 2523.49 MB
+Time used: 107.39s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY k: 10000
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 96000
+influence: 34005.97
+Memory: 2515.53 MB
+Time used: 106.99s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY k: 20000
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 48000
+influence: 37154.00
+Memory: 1281.25 MB
+Time used: 52.45s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY k: 50000
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetPHY.bin -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: -9223372036854775808
+influence: -0.00
+Memory: 23.9688 MB
+Time used: 0.02s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: NetPHY k: 2500
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 2398392
+
+------------------------------------
+
+IMM
+datasets: NetPHY k: 5000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+
+------------------------------------
+
+IMM
+datasets: NetPHY k: 10000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+
+------------------------------------
+
+IMM
+datasets: NetPHY k: 20000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+
+------------------------------------
+
+IMM
+datasets: NetPHY k: 50000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: NetPHY k: 2500
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 11995499
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY k: 5000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY k: 10000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 19474120
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY k: 20000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+Total Samples: 21868894
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY k: 50000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 2.6915e-05 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of K(Large) Over ***********************
+

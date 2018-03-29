@@ -1,0 +1,594 @@
+
+*********************** Effect Of K(Small) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: Orkut k: 1
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 2
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 5
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 10
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 20
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 50
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 100
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Orkut k: 1
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 2
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 5
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 10
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 20
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 50
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 100
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Orkut k: 1
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 2
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 5
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 10
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 20
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 50
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 100
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Orkut k: 1
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 1 
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 2
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 2 
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 5
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 5 
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 10
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 20
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 20 
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 50
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 50 
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 100
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 100 
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Orkut k: 1
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 1 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 2
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 2 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 5
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 5 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 10
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 20
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 20 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 50
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 50 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 100
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 100 
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of K(Small) Over ***********************
+
+
+*********************** Effect Of K(Large) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: Orkut k: 2500
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 5000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 10000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 20000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 50000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Orkut k: 2500
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 5000
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 10000
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 20000
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 50000
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Orkut k: 2500
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 5000
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 10000
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 20000
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 50000
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Orkut.bin -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Orkut k: 2500
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 5000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 10000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 20000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 50000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Orkut k: 2500
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 5000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 10000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 20000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 50000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 3.25474e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of K(Large) Over ***********************
+

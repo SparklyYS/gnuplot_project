@@ -1,0 +1,959 @@
+
+*********************** Effect Of epsilon (Small K=50) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 6.56469e-05 model: IC
+Total Samples: 34606
+influence: 1898.03
+Memory Usage: 28.2734 MB
+Time used: 0.2s
+
+------------------------------------
+
+SSA
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 6.56469e-05 model: IC
+Total Samples: 22010
+influence: 1898.03
+Memory Usage: 28.2734 MB
+Time used: 0.21s
+
+------------------------------------
+
+SSA
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 6.56469e-05 model: IC
+Total Samples: 13717
+influence: 1898.03
+Memory Usage: 28.2734 MB
+Time used: 0.17s
+
+------------------------------------
+
+SSA
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.56469e-05 model: IC
+Total Samples: 82851
+influence: 1880.51
+Memory Usage: 37.125 MB
+Time used: 0.4s
+
+------------------------------------
+
+SSA
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 6.56469e-05 model: IC
+Total Samples: 10109059
+influence: 1845.86
+Memory Usage: 2145.6 MB
+Time used: 51.47s
+
+------------------------------------
+
+SSA
+datasets: NetHELP epsilon: 0.001
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 6.56469e-05 model: IC
+
+------------------------------------
+
+SSA
+datasets: NetHELP epsilon: 0.0001
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 6.56469e-05 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 6.56469e-05 model: IC
+Total Samples: 29654
+influence: 1861.47
+Memory Usage: 28.082 MB
+Time used: 0.22s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 6.56469e-05 model: IC
+Total Samples: 19167
+influence: 1861.47
+Memory Usage: 28.082 MB
+Time used: 0.18s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 6.56469e-05 model: IC
+Total Samples: 13044
+influence: 1861.47
+Memory Usage: 28.082 MB
+Time used: 0.17s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.56469e-05 model: IC
+Total Samples: 69974
+influence: 1875.94
+Memory Usage: 37.2344 MB
+Time used: 0.4s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 6.56469e-05 model: IC
+Total Samples: 8571859
+influence: 1841.65
+Memory Usage: 2138.5 MB
+Time used: 50.01s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 6.56469e-05 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.0001
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 6.56469e-05 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 6.56469e-05 model: IC
+Total Samples: 20800
+influence: 1904.86
+Memory: 46.2578 MB
+Time used: 0.61s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 6.56469e-05 model: IC
+Total Samples: 12800
+influence: 1849.38
+Memory: 34.8281 MB
+Time used: 0.36s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 6.56469e-05 model: IC
+Total Samples: 6400
+influence: 1877.94
+Memory: 26.7812 MB
+Time used: 0.18s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.56469e-05 model: IC
+Total Samples: 44800
+influence: 1858.56
+Memory: 76.3945 MB
+Time used: 1.25s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 6.56469e-05 model: IC
+Total Samples: 4276800
+influence: 1841.61
+Memory: 5589.03 MB
+Time used: 122.16s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP epsilon: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 6.56469e-05 model: IC
+
+------------------------------------
+
+DSSA
+datasets: NetHELP epsilon: 0.0001
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 6.56469e-05 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 6.5647e-05 model: IC
+Total Samples: 82098
+influence: 1859.9
+Memory Usage: 80.4766 MB
+Time used:  0.195280s
+
+------------------------------------
+
+IMM
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 6.5647e-05 model: IC
+Total Samples: 49312
+influence: 1845.09
+Memory Usage: 49.7734 MB
+Time used:  0.148875s
+
+------------------------------------
+
+IMM
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 6.5647e-05 model: IC
+Total Samples: 24872
+influence: 1815.86
+Memory Usage: 27.3555 MB
+Time used:  0.096024s
+
+------------------------------------
+
+IMM
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.5647e-05 model: IC
+Total Samples: 174515
+influence: 1852.49
+Memory Usage: 163.098 MB
+Time used:  0.343918s
+
+------------------------------------
+
+IMM
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 6.5647e-05 model: IC
+Total Samples: 15466070
+influence: 1855.55
+Memory Usage: 13733.4 MB
+Time used:  9.521047s
+
+------------------------------------
+
+IMM
+datasets: NetHELP epsilon: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 6.5647e-05 model: IC
+
+------------------------------------
+
+IMM
+datasets: NetHELP epsilon: 0.0001
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 6.5647e-05 model: IC
+Error:R too large
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 6.5647e-05 model: IC
+Total Samples: 454138
+Influence: 1861.88
+Memory Usage: 407.527 MB
+Time used: 5.85654s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 6.5647e-05 model: IC
+Total Samples: 270022
+Influence: 1859.4
+Memory Usage: 247.414 MB
+Time used: 3.45998s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 6.5647e-05 model: IC
+Total Samples: 136873
+Influence: 1878.61
+Memory Usage: 130.023 MB
+Time used: 1.78692s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.5647e-05 model: IC
+Total Samples: 942860
+Influence: 1850.7
+Memory Usage: 833.996 MB
+Time used: 11.9829s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 6.5647e-05 model: IC
+Total Samples: 66662234
+Influence: 1856.08
+Memory Usage: 58781.8 MB
+Time used: 881.935s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 6.5647e-05 model: IC
+Total Samples: 6234171841
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.0001
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 6.5647e-05 model: IC
+Total Samples: 611085879310
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 6.5647e-05 model: IC
+Total Samples: 1514641
+Influence: 1851.76
+Memory Usage: 1342.53 MB
+Time used: 19.2564s
+
+------------------------------------
+
+TIM
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 6.5647e-05 model: IC
+Total Samples: 862250
+Influence: 1851.75
+Memory Usage: 762.609 MB
+Time used: 10.9268s
+
+------------------------------------
+
+TIM
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 6.5647e-05 model: IC
+Total Samples: 392346
+Influence: 1858.61
+Memory Usage: 353.672 MB
+Time used: 4.97313s
+
+------------------------------------
+
+TIM
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.5647e-05 model: IC
+Total Samples: 3366884
+Influence: 1856.64
+Memory Usage: 2959.91 MB
+Time used: 42.948s
+
+------------------------------------
+
+TIM
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 6.5647e-05 model: IC
+Total Samples: 329297749
+
+------------------------------------
+
+TIM
+datasets: NetHELP epsilon: 0.001
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 6.5647e-05 model: IC
+Total Samples: 32855867682
+
+------------------------------------
+
+TIM
+datasets: NetHELP epsilon: 0.0001
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 6.5647e-05 model: IC
+Total Samples: 3284847695992
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of epsilon (Small K=50) Over ***********************
+
+
+*********************** Effect Of epsilon (Large K=10000) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 6.56469e-05 model: IC
+Total Samples: 26288
+influence: 15233.00
+Memory Usage: 36.4883 MB
+Time used: 0.38s
+
+------------------------------------
+
+SSA
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 6.56469e-05 model: IC
+Total Samples: 11542
+influence: 15233.00
+Memory Usage: 27.6094 MB
+Time used: 0.17s
+
+------------------------------------
+
+SSA
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 6.56469e-05 model: IC
+Total Samples: 10473
+influence: 15233.00
+Memory Usage: 27.6094 MB
+Time used: 0.17s
+
+------------------------------------
+
+SSA
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.56469e-05 model: IC
+Total Samples: 54230
+influence: 15233.00
+Memory Usage: 43.0195 MB
+Time used: 0.66s
+
+------------------------------------
+
+SSA
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 6.56469e-05 model: IC
+Total Samples: 2346988
+influence: 15003.69
+Memory Usage: 388.629 MB
+Time used: 8.85s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 6.56469e-05 model: IC
+Total Samples: 25190
+influence: 15233.00
+Memory Usage: 35.3086 MB
+Time used: 0.4s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 6.56469e-05 model: IC
+Total Samples: 11285
+influence: 15233.00
+Memory Usage: 27.5664 MB
+Time used: 0.17s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 6.56469e-05 model: IC
+Total Samples: 10393
+influence: 15233.00
+Memory Usage: 27.5664 MB
+Time used: 0.16s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.56469e-05 model: IC
+Total Samples: 50022
+influence: 15233.00
+Memory Usage: 42.4766 MB
+Time used: 0.64s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/NetHELP.bin -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 6.56469e-05 model: IC
+Total Samples: 2009665
+influence: 15003.57
+Memory Usage: 391.227 MB
+Time used: 9.03s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 6.56469e-05 model: IC
+Total Samples: 10400
+influence: 15233.00
+Memory: 31.1172 MB
+Time used: 0.3s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 6.56469e-05 model: IC
+Total Samples: 5600
+influence: 15233.00
+Memory: 25.5 MB
+Time used: 0.15s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 6.56469e-05 model: IC
+Total Samples: 800
+influence: 15233.00
+Memory: 19.8086 MB
+Time used: 0.02s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.56469e-05 model: IC
+Total Samples: 43200
+influence: 15233.00
+Memory: 69.4336 MB
+Time used: 1.26s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/NetHELP.bin -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 6.56469e-05 model: IC
+Total Samples: 1046800
+influence: 14982.88
+Memory: 1217.21 MB
+Time used: 28.41s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 6.5647e-05 model: IC
+Total Samples: 714891
+influence: 14973.9
+Memory Usage: 825.633 MB
+Time used:  0.474321s
+
+------------------------------------
+
+IMM
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 6.5647e-05 model: IC
+Total Samples: 425252
+influence: 14985.6
+Memory Usage: 470.031 MB
+Time used:  0.252962s
+
+------------------------------------
+
+IMM
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 6.5647e-05 model: IC
+Total Samples: 209255
+influence: 15027.2
+Memory Usage: 213.793 MB
+Time used:  0.113184s
+
+------------------------------------
+
+IMM
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.5647e-05 model: IC
+Total Samples: 1515813
+influence: 14962.6
+Memory Usage: 1850.93 MB
+Time used:  1.059326s
+
+------------------------------------
+
+IMM
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 6.5647e-05 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 6.5647e-05 model: IC
+Total Samples: 3854787
+Influence: 14959.2
+Memory Usage: 3582.43 MB
+Time used: 53.8424s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 6.5647e-05 model: IC
+Total Samples: 2223032
+Influence: 14962.8
+Memory Usage: 2086.83 MB
+Time used: 30.3455s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 6.5647e-05 model: IC
+Total Samples: 1034689
+Influence: 14971.7
+Memory Usage: 967.246 MB
+Time used: 14.1891s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.5647e-05 model: IC
+Total Samples: 8443759
+Influence: 14956.3
+Memory Usage: 8102.99 MB
+Time used: 116.248s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 6.5647e-05 model: IC
+Total Samples: 808106793
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: NetHELP epsilon: 0.15
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 6.5647e-05 model: IC
+Total Samples: 12421002
+Influence: 14955.7
+Memory Usage: 11636.3 MB
+Time used: 169.976s
+
+------------------------------------
+
+TIM
+datasets: NetHELP epsilon: 0.2
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 6.5647e-05 model: IC
+Total Samples: 7070992
+
+------------------------------------
+
+TIM
+datasets: NetHELP epsilon: 0.3
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 6.5647e-05 model: IC
+Total Samples: 3217488
+Influence: 14961.2
+Memory Usage: 2996.67 MB
+Time used: 44.8107s
+
+------------------------------------
+
+TIM
+datasets: NetHELP epsilon: 0.1
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.5647e-05 model: IC
+Total Samples: 27610542
+Influence: 14955.1
+Memory Usage: 26044.5 MB
+Time used: 391.878s
+
+------------------------------------
+
+TIM
+datasets: NetHELP epsilon: 0.01
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 6.5647e-05 model: IC
+Total Samples: 2700445749
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of epsilon (Large K=10000) Over ***********************
+

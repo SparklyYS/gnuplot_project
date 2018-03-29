@@ -1,0 +1,979 @@
+
+*********************** Effect Of epsilon (Small K=50) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 90741
+influence: 1662.64
+Memory Usage: 26.1445 MB
+Time used: 0.04s
+
+------------------------------------
+
+SSA
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 54577
+influence: 1662.64
+Memory Usage: 26.1445 MB
+Time used: 0.03s
+
+------------------------------------
+
+SSA
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 19990
+influence: 1631.06
+Memory Usage: 25.1055 MB
+Time used: 0.01s
+
+------------------------------------
+
+SSA
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 233561
+influence: 1613.97
+Memory Usage: 28.3398 MB
+Time used: 0.08s
+
+------------------------------------
+
+SSA
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 28508476
+influence: 1602.40
+Memory Usage: 463.848 MB
+Time used: 7.15s
+
+------------------------------------
+
+SSA
+datasets: NetPHY epsilon: 0.001
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 2.6915e-05 model: LT
+Total Samples: 2893890449
+influence: 1603.31
+Memory Usage: 35988 MB
+Time used: 732.36s
+
+------------------------------------
+
+SSA
+datasets: NetPHY epsilon: 0.0001
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 2.6915e-05 model: LT
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 78055
+influence: 1699.80
+Memory Usage: 26.1523 MB
+Time used: 0.03s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 47295
+influence: 1699.80
+Memory Usage: 26.1523 MB
+Time used: 0.03s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 19008
+influence: 1564.18
+Memory Usage: 25.1094 MB
+Time used: 0.02s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 197563
+influence: 1638.49
+Memory Usage: 28.3438 MB
+Time used: 0.06s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 24064733
+influence: 1602.10
+Memory Usage: 463.984 MB
+Time used: 6.38s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 2.6915e-05 model: LT
+Total Samples: 2443864546
+influence: 1604.19
+Memory Usage: 35973.8 MB
+Time used: 632.24s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.0001
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 2.6915e-05 model: LT
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 44800
+influence: 1601.44
+Memory: 30.7188 MB
+Time used: 0.06s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 25600
+influence: 1606.62
+Memory: 27.8828 MB
+Time used: 0.04s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 12800
+influence: 1648.71
+Memory: 25.8711 MB
+Time used: 0.03s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 192000
+influence: 1591.62
+Memory: 51.0391 MB
+Time used: 0.18s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 9187200
+influence: 1603.81
+Memory: 1499.35 MB
+Time used: 7.51s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY epsilon: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 2.6915e-05 model: LT
+Total Samples: 1831571200
+influence: 1603.71
+Memory: 239167 MB
+Time used: 1438.2s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY epsilon: 0.0001
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 2.6915e-05 model: LT
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 252002
+influence: 1606.15
+Memory Usage: 27.9805 MB
+Time used:  0.049244s
+
+------------------------------------
+
+IMM
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 151080
+influence: 1608.57
+Memory Usage: 22.2891 MB
+Time used:  0.033971s
+
+------------------------------------
+
+IMM
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 74281
+influence: 1592.56
+Memory Usage: 15.3359 MB
+Time used:  0.020681s
+
+------------------------------------
+
+IMM
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 532147
+influence: 1628.04
+Memory Usage: 50.9102 MB
+Time used:  0.103309s
+
+------------------------------------
+
+IMM
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 47734856
+influence: 1617.26
+Memory Usage: 3348.77 MB
+Time used:  8.290348s
+
+------------------------------------
+
+IMM
+datasets: NetPHY epsilon: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 2.6915e-05 model: LT
+Error:R too large
+
+------------------------------------
+
+IMM
+datasets: NetPHY epsilon: 0.0001
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 2.6915e-05 model: LT
+Error:R too large
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 1380506
+Influence: 1612.13
+Memory Usage: 109.918 MB
+Time used: 0.799304s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 847986
+Influence: 1607.55
+Memory Usage: 70.6016 MB
+Time used: 0.490991s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 436737
+Influence: 1613.64
+Memory Usage: 42.0078 MB
+Time used: 0.279127s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 2841335
+Influence: 1615.02
+Memory Usage: 212.797 MB
+Time used: 1.64642s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 208403209
+Influence: 1616.37
+Memory Usage: 14476.3 MB
+Time used: 97.0335s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 2.6915e-05 model: LT
+Total Samples: 19258612074
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.0001
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 2.6915e-05 model: LT
+Total Samples: 1892987122724
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 66219586
+Influence: 1616.65
+Memory Usage: 4601.24 MB
+Time used: 32.4875s
+
+------------------------------------
+
+TIM
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 37697294
+Influence: 1616.82
+Memory Usage: 2646.23 MB
+Time used: 17.8032s
+
+------------------------------------
+
+TIM
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 17153266
+Influence: 1615.37
+Memory Usage: 1206.53 MB
+Time used: 8.35246s
+
+------------------------------------
+
+TIM
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 147198961
+Influence: 1616.7
+Memory Usage: 10177.6 MB
+Time used: 72.7134s
+
+------------------------------------
+
+TIM
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 14396776453
+
+------------------------------------
+
+TIM
+datasets: NetPHY epsilon: 0.001
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.001 -k 10 
+k: 10 epsilon: 0.001 delta: 2.6915e-05 model: LT
+Total Samples: 1436446448636
+
+------------------------------------
+
+TIM
+datasets: NetPHY epsilon: 0.0001
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.0001 -k 10 
+k: 10 epsilon: 0.0001 delta: 2.6915e-05 model: LT
+Total Samples: 143612332896545
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of epsilon (Small K=50) Over ***********************
+
+
+*********************** Effect Of epsilon (Large K=10000) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 79606
+influence: 34918.57
+Memory Usage: 28.9492 MB
+Time used: 0.09s
+
+------------------------------------
+
+SSA
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 35904
+influence: 36794.84
+Memory Usage: 26.7461 MB
+Time used: 0.04s
+
+------------------------------------
+
+SSA
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 21246
+influence: 37154.00
+Memory Usage: 26.3555 MB
+Time used: 0.03s
+
+------------------------------------
+
+SSA
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 199757
+influence: 33813.32
+Memory Usage: 37.2148 MB
+Time used: 0.17s
+
+------------------------------------
+
+SSA
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 5885045
+influence: 32815.31
+Memory Usage: 238.777 MB
+Time used: 3.08s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 76039
+influence: 34913.61
+Memory Usage: 28.9492 MB
+Time used: 0.09s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 46286
+influence: 35565.67
+Memory Usage: 28.2578 MB
+Time used: 0.05s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 21073
+influence: 37154.00
+Memory Usage: 26.3555 MB
+Time used: 0.02s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 121386
+influence: 34362.81
+Memory Usage: 31.3984 MB
+Time used: 0.11s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetPHY.bin -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 5271978
+influence: 32815.25
+Memory Usage: 238.664 MB
+Time used: 2.82s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 44800
+influence: 35359.33
+Memory: 30.875 MB
+Time used: 0.08s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 25600
+influence: 37154.00
+Memory: 28.0312 MB
+Time used: 0.05s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 6400
+influence: 37154.00
+Memory: 24.8672 MB
+Time used: 0.02s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 96000
+influence: 34192.13
+Memory: 37.7461 MB
+Time used: 0.14s
+
+------------------------------------
+
+DSSA
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetPHY.bin -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 2270400
+influence: 32836.89
+Memory: 391.824 MB
+Time used: 3.03s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 1730002
+influence: 32816.2
+Memory Usage: 165.242 MB
+Time used:  0.316413s
+
+------------------------------------
+
+IMM
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 1027661
+influence: 32887.5
+Memory Usage: 95.1992 MB
+Time used:  0.177926s
+
+------------------------------------
+
+IMM
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 503953
+influence: 33073.5
+Memory Usage: 48.3281 MB
+Time used:  0.096481s
+
+------------------------------------
+
+IMM
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 3670946
+influence: 32766.9
+Memory Usage: 347.34 MB
+Time used:  0.735039s
+
+------------------------------------
+
+IMM
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 326845634
+influence: 32698.2
+Memory Usage: 29299.3 MB
+Time used:  243.477306s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 8508362
+Influence: 32739.4
+Memory Usage: 609.586 MB
+Time used: 4.908s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 4906659
+Influence: 32749
+Memory Usage: 360.562 MB
+Time used: 2.81171s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 2283695
+Influence: 32801.4
+Memory Usage: 173.863 MB
+Time used: 1.29482s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 19713696
+Influence: 32723
+Memory Usage: 1408.59 MB
+Time used: 11.4475s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 1981945019
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: NetPHY epsilon: 0.15
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 2.6915e-05 model: LT
+Total Samples: 44745342
+Influence: 32710.5
+Memory Usage: 3161.47 MB
+Time used: 26.3167s
+
+------------------------------------
+
+TIM
+datasets: NetPHY epsilon: 0.2
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 2.6915e-05 model: LT
+Total Samples: 25472499
+Influence: 32721.5
+Memory Usage: 1801.2 MB
+Time used: 14.509s
+
+------------------------------------
+
+TIM
+datasets: NetPHY epsilon: 0.3
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 2.6915e-05 model: LT
+Total Samples: 11590661
+Influence: 32731.5
+Memory Usage: 832.488 MB
+Time used: 6.70091s
+
+------------------------------------
+
+TIM
+datasets: NetPHY epsilon: 0.1
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.6915e-05 model: LT
+Total Samples: 99464045
+Influence: 32702.7
+Memory Usage: 6968.09 MB
+Time used: 60.3615s
+
+------------------------------------
+
+TIM
+datasets: NetPHY epsilon: 0.01
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 2.6915e-05 model: LT
+Total Samples: 9728068838
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of epsilon (Large K=10000) Over ***********************
+

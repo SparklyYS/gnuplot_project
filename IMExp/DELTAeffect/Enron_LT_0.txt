@@ -1,0 +1,862 @@
+
+*********************** Effect Of delta (Small K=50) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 25789
+influence: 8119.94
+Memory Usage: 27.2422 MB
+Time used: 0.05s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 27473
+influence: 8119.94
+Memory Usage: 27.2422 MB
+Time used: 0.06s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 31455
+influence: 8119.94
+Memory Usage: 27.2422 MB
+Time used: 0.05s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 37517
+influence: 8119.94
+Memory Usage: 27.2422 MB
+Time used: 0.07s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 46209
+influence: 8119.94
+Memory Usage: 27.2422 MB
+Time used: 0.08s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 18784
+influence: 8119.94
+Memory Usage: 27.2422 MB
+Time used: 0.05s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 20511
+influence: 8119.94
+Memory Usage: 27.2422 MB
+Time used: 0.05s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 24525
+influence: 8013.53
+Memory Usage: 27.2383 MB
+Time used: 0.04s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 30512
+influence: 8013.53
+Memory Usage: 27.2383 MB
+Time used: 0.06s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 39696
+influence: 8013.53
+Memory Usage: 27.2383 MB
+Time used: 0.06s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Enron delta: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 10400
+influence: 8033.43
+Memory: 28.0586 MB
+Time used: 0.05s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.05
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 12000
+influence: 8105.87
+Memory: 28.1641 MB
+Time used: 0.05s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 14400
+influence: 8090.08
+Memory: 28.4297 MB
+Time used: 0.06s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 18400
+influence: 8064.26
+Memory: 30.3984 MB
+Time used: 0.07s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 24000
+influence: 8063.07
+Memory: 30.7109 MB
+Time used: 0.09s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 79691
+influence: 8067.78
+Memory Usage: 25.2578 MB
+Time used:  0.004589s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 82415
+influence: 8067.78
+Memory Usage: 25.0508 MB
+Time used:  0.004553s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 88188
+influence: 8080.32
+Memory Usage: 24.8477 MB
+Time used:  0.023821s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 95629
+influence: 8056.66
+Memory Usage: 26.1875 MB
+Time used:  0.037631s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 106203
+influence: 8075.74
+Memory Usage: 27.168 MB
+Time used:  0.064213s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 514527
+Influence: 8083.5
+Memory Usage: 81.7344 MB
+Time used: 1.37928s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 518318
+Influence: 8086.1
+Memory Usage: 82.2109 MB
+Time used: 1.39579s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 527119
+Influence: 8085.58
+Memory Usage: 84.2266 MB
+Time used: 1.4517s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 539710
+Influence: 8091.38
+Memory Usage: 86.6367 MB
+Time used: 1.51169s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 559410
+Influence: 8091.63
+Memory Usage: 88.5195 MB
+Time used: 1.53785s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 5060415
+Influence: 8099.91
+Memory Usage: 672.52 MB
+Time used: 13.0975s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 5097855
+Influence: 8100.5
+Memory Usage: 677.375 MB
+Time used: 13.2156s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 5184787
+Influence: 8100.57
+Memory Usage: 688.609 MB
+Time used: 13.2068s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 5309160
+Influence: 8101.4
+Memory Usage: 704.73 MB
+Time used: 13.6229s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 1/n 
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 5503750
+Influence: 8102.45
+Memory Usage: 730.781 MB
+Time used: 14.0298s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Small K=50) Over ***********************
+
+
+*********************** Effect Of delta (Large K=10000) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 41115
+influence: 36692.00
+Memory Usage: 29.793 MB
+Time used: 0.12s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 42316
+influence: 36692.00
+Memory Usage: 29.7891 MB
+Time used: 0.12s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 30191
+influence: 36692.00
+Memory Usage: 28.8047 MB
+Time used: 0.07s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 32989
+influence: 36692.00
+Memory Usage: 28.7891 MB
+Time used: 0.09s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 55771
+influence: 36692.00
+Memory Usage: 29.8125 MB
+Time used: 0.11s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 24184
+influence: 36692.00
+Memory Usage: 28.7969 MB
+Time used: 0.08s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 25044
+influence: 36692.00
+Memory Usage: 28.7969 MB
+Time used: 0.07s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 40440
+influence: 36692.00
+Memory Usage: 29.8203 MB
+Time used: 0.12s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 29815
+influence: 36692.00
+Memory Usage: 28.7891 MB
+Time used: 0.08s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 51119
+influence: 36692.00
+Memory Usage: 29.8008 MB
+Time used: 0.12s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Enron delta: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 20800
+influence: 36692.00
+Memory: 30.6641 MB
+Time used: 0.12s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.05
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 22400
+influence: 36692.00
+Memory: 30.7031 MB
+Time used: 0.12s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 14400
+influence: 36692.00
+Memory: 28.5781 MB
+Time used: 0.09s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 17600
+influence: 36692.00
+Memory: 30.4688 MB
+Time used: 0.1s
+
+------------------------------------
+
+DSSA
+datasets: Enron 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 24000
+influence: 36692.00
+Memory: 30.8633 MB
+Time used: 0.13s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 3184063
+influence: 36410.8
+Memory Usage: 601.473 MB
+Time used:  1.423463s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 3190663
+influence: 36410.8
+Memory Usage: 602.367 MB
+Time used:  1.420964s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 3203968
+influence: 36410.8
+Memory Usage: 601.055 MB
+Time used:  1.435002s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 3219950
+influence: 36410.8
+Memory Usage: 599.66 MB
+Time used:  1.431756s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 3240823
+influence: 36410.8
+Memory Usage: 602.164 MB
+Time used:  1.474637s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 18505209
+Influence: 36384.7
+Memory Usage: 2403.48 MB
+Time used: 55.3077s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 18505806
+Influence: 36384.6
+Memory Usage: 2402.88 MB
+Time used: 55.5737s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 18507191
+Influence: 36384.6
+Memory Usage: 2403.3 MB
+Time used: 55.3745s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 18509174
+Influence: 36384.9
+Memory Usage: 2403.87 MB
+Time used: 54.6833s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 18512276
+Influence: 36384.6
+Memory Usage: 2403.8 MB
+Time used: 55.2519s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 43728773
+Influence: 36379.2
+Memory Usage: 5663.48 MB
+Time used: 131.987s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 43730184
+Influence: 36379.2
+Memory Usage: 5670.09 MB
+Time used: 131.534s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 43733459
+Influence: 36379.1
+Memory Usage: 5664.39 MB
+Time used: 128.534s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 43738144
+Influence: 36379.1
+Memory Usage: 5671.98 MB
+Time used: 123.132s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: LT
+Total Samples: 43745474
+Influence: 36379.2
+Memory Usage: 5676.54 MB
+Time used: 124.667s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Large K=10000) Over ***********************
+

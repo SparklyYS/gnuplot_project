@@ -1,0 +1,720 @@
+
+*********************** Effect Of delta (Small K=10) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 254640
+influence: 87579.45
+Memory Usage: 1261.11 MB
+Time used: 2.77s
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 289638
+influence: 90891.96
+Memory Usage: 1261.22 MB
+Time used: 2.99s
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 363844
+influence: 90213.30
+Memory Usage: 1284.47 MB
+Time used: 4.09s
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 451542
+influence: 88076.64
+Memory Usage: 1281.94 MB
+Time used: 6.85s
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.06289e-07 model: LT
+Total Samples: 784540
+influence: 90995.83
+Memory Usage: 1307.43 MB
+Time used: 6.9s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 161447
+influence: 98324.90
+Memory Usage: 1261.34 MB
+Time used: 2.18s
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 184260
+influence: 90487.99
+Memory Usage: 1261.22 MB
+Time used: 3.97s
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 273362
+influence: 90164.82
+Memory Usage: 1284.51 MB
+Time used: 3.23s
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 313385
+influence: 94951.80
+Memory Usage: 1281.19 MB
+Time used: 4.85s
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.06289e-07 model: LT
+Total Samples: 700362
+influence: 90557.24
+Memory Usage: 1307.52 MB
+Time used: 6.39s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 89600
+influence: 92028.11
+Memory: 1319.17 MB
+Time used: 2.54s
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 96000
+influence: 88922.63
+Memory: 1324.89 MB
+Time used: 4.67s
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 121600
+influence: 88978.44
+Memory: 1329.63 MB
+Time used: 3.14s
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 294400
+influence: 90513.24
+Memory: 1403.43 MB
+Time used: 12.27s
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.06289e-07 model: LT
+Total Samples: 262400
+influence: 88970.66
+Memory: 1399.3 MB
+Time used: 5.37s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 1365445
+influence: 90639.5
+Memory Usage: 1980.86 MB
+Time used:  4.858286s
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 1402694
+influence: 90554.9
+Memory Usage: 1989.27 MB
+Time used:  4.006015s
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 1480896
+influence: 90470.3
+Memory Usage: 2007.27 MB
+Time used:  4.601590s
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 1580430
+influence: 90364.1
+Memory Usage: 2026.4 MB
+Time used:  7.744272s
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.06289e-07 model: LT
+Total Samples: 1891294
+influence: 90385
+Memory Usage: 2084.17 MB
+Time used:  8.773694s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 9395898
+Influence: 90458
+Memory Usage: 3433.82 MB
+Time used: 125.082s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 9441464
+Influence: 90425.5
+Memory Usage: 3437.61 MB
+Time used: 321.435s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 9547265
+Influence: 90387.6
+Memory Usage: 3459.98 MB
+Time used: 127.156s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 9698632
+Influence: 90379
+Memory Usage: 3488.07 MB
+Time used: 310.508s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.06289e-07 model: LT
+Total Samples: 10256499
+Influence: 90344
+Memory Usage: 3588.37 MB
+Time used: 338.727s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Small K=10) Over ***********************
+
+
+*********************** Effect Of delta (Large K=10000) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 1108344
+influence: 1628014.57
+Memory Usage: 1442.68 MB
+Time used: 14.77s
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 1248828
+influence: 1616012.37
+Memory Usage: 1460.96 MB
+Time used: 16.35s
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 1474684
+influence: 1607053.23
+Memory Usage: 1511.97 MB
+Time used: 37s
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 1837576
+influence: 1598478.62
+Memory Usage: 1557.76 MB
+Time used: 22.81s
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.06289e-07 model: LT
+Total Samples: 1851418
+influence: 1603829.56
+Memory Usage: 1532.8 MB
+Time used: 21.33s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 1906921
+influence: 1588382.04
+Memory Usage: 1596.57 MB
+Time used: 43.68s
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 1157849
+influence: 1620044.24
+Memory Usage: 1461.12 MB
+Time used: 15.82s
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 1384797
+influence: 1609822.70
+Memory Usage: 1511.95 MB
+Time used: 18.23s
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 1753821
+influence: 1596016.81
+Memory Usage: 1557.34 MB
+Time used: 44.74s
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.06289e-07 model: LT
+Total Samples: 1773135
+influence: 1606296.12
+Memory Usage: 1533.11 MB
+Time used: 20.99s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 716800
+influence: 1651778.71
+Memory: 1520.12 MB
+Time used: 27.85s
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 768000
+influence: 1645813.47
+Memory: 1531.69 MB
+Time used: 16.75s
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 972800
+influence: 1625894.65
+Memory: 1576.89 MB
+Time used: 20.81s
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 588800
+influence: 1674231.48
+Memory: 1506.76 MB
+Time used: 26.34s
+
+------------------------------------
+
+DSSA
+datasets: Livejournal 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.06289e-07 model: LT
+Total Samples: 1049600
+influence: 1623428.25
+Memory: 1641.58 MB
+Time used: 22.2s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 32762492
+influence: 1.54911e+06
+Memory Usage: 7644.38 MB
+Time used:  45.086727s
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 32799529
+influence: 1.54902e+06
+Memory Usage: 7647.92 MB
+Time used:  45.782830s
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 32874059
+influence: 1.54885e+06
+Memory Usage: 7661.14 MB
+Time used:  47.638882s
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 32963344
+influence: 1.54899e+06
+Memory Usage: 7674.09 MB
+Time used:  48.555244s
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.06289e-07 model: LT
+Total Samples: 33210912
+influence: 1.54908e+06
+Memory Usage: 7720.57 MB
+Time used:  92.872245s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 163269806
+Influence: 1.54726e+06
+Memory Usage: 30936.7 MB
+Time used: 1589.27s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 163271382
+Influence: 1.54726e+06
+Memory Usage: 30940.1 MB
+Time used: 1548.85s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 163275040
+Influence: 1.54726e+06
+Memory Usage: 30941.6 MB
+Time used: 1827.21s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 163280274
+Influence: 1.54726e+06
+Memory Usage: 30938.5 MB
+Time used: 1576.25s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.06289e-07 model: LT
+Total Samples: 163299565
+Influence: 1.54726e+06
+Memory Usage: 30944.8 MB
+Time used: 1561.16s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Large K=10000) Over ***********************
+

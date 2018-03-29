@@ -1,0 +1,812 @@
+
+*********************** Effect Of delta (Small K=50) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 14813
+influence: 26341.19
+Memory Usage: 1709.76 MB
+Time used: 75.11s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 15372
+influence: 26212.76
+Memory Usage: 1703.02 MB
+Time used: 78.94s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 16584
+influence: 26363.20
+Memory Usage: 1709.13 MB
+Time used: 84.96s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 18312
+influence: 25820.16
+Memory Usage: 1689.62 MB
+Time used: 84.39s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 21073
+influence: 26311.83
+Memory Usage: 1707.79 MB
+Time used: 93.22s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 12610
+influence: 26201.76
+Memory Usage: 1701.95 MB
+Time used: 68.64s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 13216
+influence: 26143.05
+Memory Usage: 1701.96 MB
+Time used: 71.73s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 14476
+influence: 26157.73
+Memory Usage: 1700.3 MB
+Time used: 72.73s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 16285
+influence: 26454.93
+Memory Usage: 1710.86 MB
+Time used: 80.82s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 19033
+influence: 26099.02
+Memory Usage: 1699.86 MB
+Time used: 91.88s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Enron delta: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 2600
+influence: 26277.12
+Memory: 634.719 MB
+Time used: 20.87s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.05
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 3000
+influence: 26014.63
+Memory: 811.336 MB
+Time used: 24.56s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 3600
+influence: 26397.86
+Memory: 971.41 MB
+Time used: 29.48s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 9200
+influence: 26123.11
+Memory: 2276.38 MB
+Time used: 88.53s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 6000
+influence: 26332.63
+Memory: 1626.1 MB
+Time used: 49.61s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 24518
+influence: 26206.2
+Memory Usage: 4340.47 MB
+Time used:  23.012335s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 25356
+influence: 26162.1
+Memory Usage: 4489.49 MB
+Time used:  27.258489s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 27132
+influence: 26135.9
+Memory Usage: 4769.36 MB
+Time used:  37.425214s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 29421
+influence: 26065.5
+Memory Usage: 5123.79 MB
+Time used:  47.942421s
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 32675
+influence: 26131.1
+Memory Usage: 5590.62 MB
+Time used:  66.975636s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 149285
+Influence: 26096.8
+Memory Usage: 24539.4 MB
+Time used: 1044.07s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 150385
+Influence: 26096.2
+Memory Usage: 24445.4 MB
+Time used: 1059.27s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 152938
+Influence: 26098.9
+Memory Usage: 24994.6 MB
+Time used: 1071.33s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 156592
+Influence: 26098.9
+Memory Usage: 25245.4 MB
+Time used: 1115.45s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 162308
+Influence: 26095.8
+Memory Usage: 26141.7 MB
+Time used: 1134.89s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 231182
+Influence: 26086.1
+Memory Usage: 40048.2 MB
+Time used: 1639.52s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 232893
+Influence: 26086.3
+Memory Usage: 40275.2 MB
+Time used: 1637.87s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 236864
+Influence: 26079.8
+Memory Usage: 40613.1 MB
+Time used: 1686.88s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 242546
+Influence: 26085.2
+Memory Usage: 41621.5 MB
+Time used: 1707.73s
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 1/n 
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 251436
+Influence: 26091.6
+Memory Usage: 42816.2 MB
+Time used: 1786.44s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Small K=50) Over ***********************
+
+
+*********************** Effect Of delta (Large K=10000) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 112805
+influence: 36195.84
+Memory Usage: 13977 MB
+Time used: 756.42s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 115363
+influence: 36195.03
+Memory Usage: 13983.8 MB
+Time used: 753.83s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 131175
+influence: 36035.21
+Memory Usage: 19697.1 MB
+Time used: 814.19s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 113109
+influence: 36428.28
+Memory Usage: 13223.9 MB
+Time used: 640.64s
+
+------------------------------------
+
+SSA
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 124374
+influence: 36410.85
+Memory Usage: 13213.1 MB
+Time used: 632.2s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 102697
+influence: 36173.83
+Memory Usage: 13998.9 MB
+Time used: 755.14s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 105310
+influence: 36158.74
+Memory Usage: 13981.6 MB
+Time used: 753.37s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 121314
+influence: 36041.82
+Memory Usage: 19787.7 MB
+Time used: 811.26s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 105162
+influence: 36426.44
+Memory Usage: 13212.6 MB
+Time used: 633.56s
+
+------------------------------------
+
+SSA-Fix
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 116507
+influence: 36425.07
+Memory Usage: 13212.1 MB
+Time used: 626.49s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Enron delta: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 41600
+influence: 36692.00
+Memory: 9764.16 MB
+Time used: 452.11s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.05
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 44800
+influence: 36692.00
+Memory: 10286.6 MB
+Time used: 490.28s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 57600
+influence: 36692.00
+Memory: 14776.7 MB
+Time used: 640.8s
+
+------------------------------------
+
+DSSA
+datasets: Enron delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 35200
+influence: 36692.00
+Memory: 8725.26 MB
+Time used: 377.69s
+
+------------------------------------
+
+DSSA
+datasets: Enron 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Enron.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 48000
+influence: 36692.00
+Memory: 12479.2 MB
+Time used: 519.71s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: IC
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: IC
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: IC
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: IC
+
+------------------------------------
+
+IMM
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 18505153
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 18505750
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 18507136
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 18509119
+
+------------------------------------
+
+TIM_PLUS
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 18512220
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: Enron delta: 0.1
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: IC
+Total Samples: 46722651
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.05
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: IC
+Total Samples: 46724158
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.01
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: IC
+Total Samples: 46727657
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 0.001
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: IC
+Total Samples: 46732663
+
+------------------------------------
+
+TIM
+datasets: Enron delta: 1/n
+------------------------------------
+
+Arguments: ../tim -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.72539e-05 model: IC
+Total Samples: 46740495
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Large K=10000) Over ***********************
+

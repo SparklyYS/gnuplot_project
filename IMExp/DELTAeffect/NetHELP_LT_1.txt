@@ -1,0 +1,862 @@
+
+*********************** Effect Of delta (Small K=50) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 120883
+influence: 583.93
+Memory Usage: 21.1094 MB
+Time used: 0.04s
+
+------------------------------------
+
+SSA
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 131158
+influence: 583.93
+Memory Usage: 21.1094 MB
+Time used: 0.04s
+
+------------------------------------
+
+SSA
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 155253
+influence: 583.93
+Memory Usage: 21.1094 MB
+Time used: 0.05s
+
+------------------------------------
+
+SSA
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 209490
+influence: 584.34
+Memory Usage: 22.7305 MB
+Time used: 0.07s
+
+------------------------------------
+
+SSA
+datasets: NetHELP delta: 1/n
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.56469e-05 model: LT
+Total Samples: 249710
+influence: 584.34
+Memory Usage: 22.7305 MB
+Time used: 0.08s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 80406
+influence: 583.93
+Memory Usage: 21.1094 MB
+Time used: 0.03s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 90307
+influence: 583.93
+Memory Usage: 21.1094 MB
+Time used: 0.04s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 114635
+influence: 583.93
+Memory Usage: 21.1094 MB
+Time used: 0.05s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 170137
+influence: 584.34
+Memory Usage: 22.7305 MB
+Time used: 0.05s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP delta: 1/n
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.56469e-05 model: LT
+Total Samples: 210625
+influence: 584.34
+Memory Usage: 22.7305 MB
+Time used: 0.06s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 41600
+influence: 572.70
+Memory: 24.9688 MB
+Time used: 0.04s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 44800
+influence: 576.00
+Memory: 25.1172 MB
+Time used: 0.05s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 57600
+influence: 574.94
+Memory: 26.0547 MB
+Time used: 0.05s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 70400
+influence: 579.03
+Memory: 30.0508 MB
+Time used: 0.06s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP delta: 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.56469e-05 model: LT
+Total Samples: 179200
+influence: 577.36
+Memory: 43.8828 MB
+Time used: 0.12s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 416779
+influence: 586.031
+Memory Usage: 34.375 MB
+Time used:  0.041379s
+
+------------------------------------
+
+IMM
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 431812
+influence: 588.629
+Memory Usage: 34.8164 MB
+Time used:  0.045544s
+
+------------------------------------
+
+IMM
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 463737
+influence: 587.722
+Memory Usage: 37.2891 MB
+Time used:  0.056237s
+
+------------------------------------
+
+IMM
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 505018
+influence: 589.631
+Memory Usage: 39.4922 MB
+Time used:  0.072218s
+
+------------------------------------
+
+IMM
+datasets: NetHELP delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.5647e-05 model: LT
+Total Samples: 549985
+influence: 589.421
+Memory Usage: 44.9883 MB
+Time used:  0.095354s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 2636965
+Influence: 594.204
+Memory Usage: 181.254 MB
+Time used: 1.10013s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 2658394
+Influence: 594.36
+Memory Usage: 182.738 MB
+Time used: 1.07603s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 2708148
+Influence: 594.262
+Memory Usage: 185.281 MB
+Time used: 1.01347s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 2779331
+Influence: 594.553
+Memory Usage: 190.16 MB
+Time used: 1.15354s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.5647e-05 model: LT
+Total Samples: 2863525
+Influence: 594.786
+Memory Usage: 195.457 MB
+Time used: 1.18111s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 68718938
+Influence: 593.621
+Memory Usage: 4518.88 MB
+Time used: 26.0505s
+
+------------------------------------
+
+TIM
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 69280020
+Influence: 593.624
+Memory Usage: 4556.77 MB
+Time used: 26.034s
+
+------------------------------------
+
+TIM
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 70582813
+Influence: 593.675
+Memory Usage: 4640.61 MB
+Time used: 26.5738s
+
+------------------------------------
+
+TIM
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 72446687
+Influence: 593.7
+Memory Usage: 4755.93 MB
+Time used: 26.7734s
+
+------------------------------------
+
+TIM
+datasets: NetHELP delta: 1/n 
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 6.5647e-05 model: LT
+Total Samples: 74651250
+Influence: 593.681
+Memory Usage: 4899.13 MB
+Time used: 28.0484s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Small K=50) Over ***********************
+
+
+*********************** Effect Of delta (Large K=10000) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 40866
+influence: 15233.00
+Memory Usage: 21.1406 MB
+Time used: 0.03s
+
+------------------------------------
+
+SSA
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 42086
+influence: 15233.00
+Memory Usage: 21.1367 MB
+Time used: 0.03s
+
+------------------------------------
+
+SSA
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 44908
+influence: 15233.00
+Memory Usage: 21.1406 MB
+Time used: 0.04s
+
+------------------------------------
+
+SSA
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 49049
+influence: 15233.00
+Memory Usage: 21.1406 MB
+Time used: 0.05s
+
+------------------------------------
+
+SSA
+datasets: NetHELP delta: 1/n
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.56469e-05 model: LT
+Total Samples: 53931
+influence: 15233.00
+Memory Usage: 21.1406 MB
+Time used: 0.04s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 36248
+influence: 15233.00
+Memory Usage: 21.1367 MB
+Time used: 0.03s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 37545
+influence: 15233.00
+Memory Usage: 21.1367 MB
+Time used: 0.04s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 40440
+influence: 15233.00
+Memory Usage: 21.1367 MB
+Time used: 0.04s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 44654
+influence: 15233.00
+Memory Usage: 21.1406 MB
+Time used: 0.05s
+
+------------------------------------
+
+SSA-Fix
+datasets: NetHELP delta: 1/n
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.56469e-05 model: LT
+Total Samples: 49674
+influence: 15233.00
+Memory Usage: 21.1406 MB
+Time used: 0.03s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 19200
+influence: 15233.00
+Memory: 21.9922 MB
+Time used: 0.03s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 22400
+influence: 15233.00
+Memory: 22.1367 MB
+Time used: 0.04s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 27200
+influence: 15233.00
+Memory: 22.5391 MB
+Time used: 0.04s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 17600
+influence: 15233.00
+Memory: 21.793 MB
+Time used: 0.03s
+
+------------------------------------
+
+DSSA
+datasets: NetHELP 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/NetHELP.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.56469e-05 model: LT
+Total Samples: 21600
+influence: 15233.00
+Memory: 22.1016 MB
+Time used: 0.03s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 1456916
+influence: 15197.2
+Memory Usage: 153.973 MB
+Time used:  0.397645s
+
+------------------------------------
+
+IMM
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 1461402
+influence: 15197.2
+Memory Usage: 153.324 MB
+Time used:  0.399086s
+
+------------------------------------
+
+IMM
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 1470465
+influence: 15197.2
+Memory Usage: 154.758 MB
+Time used:  0.399973s
+
+------------------------------------
+
+IMM
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 1481380
+influence: 15197.2
+Memory Usage: 154.961 MB
+Time used:  0.415056s
+
+------------------------------------
+
+IMM
+datasets: NetHELP delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.5647e-05 model: LT
+Total Samples: 1492421
+influence: 15197.2
+Memory Usage: 154.215 MB
+Time used:  0.413009s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 8437448
+Influence: 15194.7
+Memory Usage: 567.438 MB
+Time used: 5.06256s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 8438045
+Influence: 15194.7
+Memory Usage: 567.492 MB
+Time used: 5.15387s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 8439431
+Influence: 15194.7
+Memory Usage: 568.09 MB
+Time used: 5.03284s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 8441414
+Influence: 15194.7
+Memory Usage: 567.359 MB
+Time used: 4.90957s
+
+------------------------------------
+
+TIM_PLUS
+datasets: NetHELP delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.5647e-05 model: LT
+Total Samples: 8443759
+Influence: 15194.7
+Memory Usage: 567.449 MB
+Time used: 5.07883s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: NetHELP delta: 0.1
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 27678169
+Influence: 15194.5
+Memory Usage: 1806.46 MB
+Time used: 15.9539s
+
+------------------------------------
+
+TIM
+datasets: NetHELP delta: 0.05
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 27680127
+Influence: 15194.5
+Memory Usage: 1807.39 MB
+Time used: 15.853s
+
+------------------------------------
+
+TIM
+datasets: NetHELP delta: 0.01
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 27684673
+Influence: 15194.5
+Memory Usage: 1807.46 MB
+Time used: 16.1119s
+
+------------------------------------
+
+TIM
+datasets: NetHELP delta: 0.001
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 27691177
+Influence: 15194.5
+Memory Usage: 1806.8 MB
+Time used: 15.7897s
+
+------------------------------------
+
+TIM
+datasets: NetHELP delta: 1/n
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 6.5647e-05 model: LT
+Total Samples: 27698870
+Influence: 15194.5
+Memory Usage: 1807.73 MB
+Time used: 15.7954s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Large K=10000) Over ***********************
+

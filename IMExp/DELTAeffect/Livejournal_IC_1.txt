@@ -1,0 +1,452 @@
+
+*********************** Effect Of delta (Small K=10) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Small K=10) Over ***********************
+
+
+*********************** Effect Of delta (Large K=10000) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+
+------------------------------------
+
+SSA
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: IC
+
+------------------------------------
+
+DSSA
+datasets: Livejournal 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+
+------------------------------------
+
+IMM
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Livejournal delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Large K=10000) Over ***********************
+

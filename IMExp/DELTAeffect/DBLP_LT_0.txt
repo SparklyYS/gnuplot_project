@@ -1,0 +1,832 @@
+
+*********************** Effect Of delta (Small K=10) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 1788821
+influence: 1902.51
+Memory Usage: 173.414 MB
+Time used: 1.05s
+
+------------------------------------
+
+SSA
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 1898647
+influence: 1831.67
+Memory Usage: 174.836 MB
+Time used: 1.11s
+
+------------------------------------
+
+SSA
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 2393553
+influence: 1863.09
+Memory Usage: 193.395 MB
+Time used: 1.37s
+
+------------------------------------
+
+SSA
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 2966412
+influence: 1885.16
+Memory Usage: 200.164 MB
+Time used: 1.71s
+
+------------------------------------
+
+SSA
+datasets: DBLP delta: 1/n
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 4623231
+influence: 1848.11
+Memory Usage: 240.492 MB
+Time used: 2.48s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 1155410
+influence: 1839.78
+Memory Usage: 173.426 MB
+Time used: 0.77s
+
+------------------------------------
+
+SSA-Fix
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 1321577
+influence: 1883.02
+Memory Usage: 174.816 MB
+Time used: 0.9s
+
+------------------------------------
+
+SSA-Fix
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 1737231
+influence: 1838.15
+Memory Usage: 193.395 MB
+Time used: 1.14s
+
+------------------------------------
+
+SSA-Fix
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 2375665
+influence: 1841.24
+Memory Usage: 200.164 MB
+Time used: 1.38s
+
+------------------------------------
+
+SSA-Fix
+datasets: DBLP delta: 1/n
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 4041120
+influence: 1849.19
+Memory Usage: 240.488 MB
+Time used: 2.3s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 716800
+influence: 1878.59
+Memory: 236.918 MB
+Time used: 1.19s
+
+------------------------------------
+
+DSSA
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 768000
+influence: 1850.52
+Memory: 240.707 MB
+Time used: 1.29s
+
+------------------------------------
+
+DSSA
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 921600
+influence: 1862.45
+Memory: 251.91 MB
+Time used: 1.39s
+
+------------------------------------
+
+DSSA
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 2355200
+influence: 1850.04
+Memory: 497.035 MB
+Time used: 3.54s
+
+------------------------------------
+
+DSSA
+datasets: DBLP delta: 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 3788800
+influence: 1858.94
+Memory: 598.473 MB
+Time used: 5.23s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 7877508
+influence: 1844.09
+Memory Usage: 638.773 MB
+Time used:  0.775951s
+
+------------------------------------
+
+IMM
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 8110568
+influence: 1846.63
+Memory Usage: 655.23 MB
+Time used:  0.963158s
+
+------------------------------------
+
+IMM
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 8601400
+influence: 1849.02
+Memory Usage: 688.875 MB
+Time used:  1.482941s
+
+------------------------------------
+
+IMM
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 9228838
+influence: 1844.04
+Memory Usage: 729.23 MB
+Time used:  1.886296s
+
+------------------------------------
+
+IMM
+datasets: DBLP delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 10767202
+influence: 1850.94
+Memory Usage: 832.902 MB
+Time used:  2.973576s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 53497098
+Influence: 1849.6
+Memory Usage: 3585.68 MB
+Time used: 45.1174s
+
+------------------------------------
+
+TIM_PLUS
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 53798798
+Influence: 1849.71
+Memory Usage: 3602.68 MB
+Time used: 47.3469s
+
+------------------------------------
+
+TIM_PLUS
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 54499324
+Influence: 1849.35
+Memory Usage: 3648.14 MB
+Time used: 45.7887s
+
+------------------------------------
+
+TIM_PLUS
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 55501549
+Influence: 1848.81
+Memory Usage: 3710.36 MB
+Time used: 49.6458s
+
+------------------------------------
+
+TIM_PLUS
+datasets: DBLP delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 58323811
+Influence: 1847.04
+Memory Usage: 3891.76 MB
+Time used: 48.5286s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.1 
+k: 10 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 4817614552
+
+------------------------------------
+
+TIM
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.05 
+k: 10 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 4844873691
+
+------------------------------------
+
+TIM
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.01 
+k: 10 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 4908167450
+
+------------------------------------
+
+TIM
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 -delta 0.001 
+k: 10 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 4998720348
+
+------------------------------------
+
+TIM
+datasets: DBLP delta: 1/n 
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 5253716818
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Small K=10) Over ***********************
+
+
+*********************** Effect Of delta (Large K=10000) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 2188616
+influence: 116054.82
+Memory Usage: 264.27 MB
+Time used: 2.47s
+
+------------------------------------
+
+SSA
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 1433868
+influence: 119390.92
+Memory Usage: 207.699 MB
+Time used: 1.45s
+
+------------------------------------
+
+SSA
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 1743065
+influence: 117663.93
+Memory Usage: 240.219 MB
+Time used: 1.68s
+
+------------------------------------
+
+SSA
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 2164022
+influence: 116431.19
+Memory Usage: 253.66 MB
+Time used: 2.13s
+
+------------------------------------
+
+SSA
+datasets: DBLP delta: 1/n
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 3283490
+influence: 114955.18
+Memory Usage: 336.574 MB
+Time used: 2.87s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 1992997
+influence: 116105.49
+Memory Usage: 264.285 MB
+Time used: 2.05s
+
+------------------------------------
+
+SSA-Fix
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 2208514
+influence: 115789.86
+Memory Usage: 271.48 MB
+Time used: 2.42s
+
+------------------------------------
+
+SSA-Fix
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 2727261
+influence: 115100.80
+Memory Usage: 336.992 MB
+Time used: 2.91s
+
+------------------------------------
+
+SSA-Fix
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 3480654
+influence: 114510.47
+Memory Usage: 362.332 MB
+Time used: 3.31s
+
+------------------------------------
+
+SSA-Fix
+datasets: DBLP delta: 1/n
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 3145361
+influence: 114701.97
+Memory Usage: 336.551 MB
+Time used: 3s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 1433600
+influence: 117125.72
+Memory: 336.254 MB
+Time used: 2.4s
+
+------------------------------------
+
+DSSA
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 1536000
+influence: 116663.15
+Memory: 343.434 MB
+Time used: 2.53s
+
+------------------------------------
+
+DSSA
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 921600
+influence: 119677.73
+Memory: 252.047 MB
+Time used: 1.86s
+
+------------------------------------
+
+DSSA
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 1177600
+influence: 118038.72
+Memory: 318.172 MB
+Time used: 2s
+
+------------------------------------
+
+DSSA
+datasets: DBLP 1/n
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/DBLP.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 921600
+influence: 119865.97
+Memory: 252.027 MB
+Time used: 1.59s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 44141052
+influence: 112050
+Memory Usage: 2968.14 MB
+Time used:  5.163171s
+
+------------------------------------
+
+IMM
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 44199885
+influence: 112050
+Memory Usage: 2973.33 MB
+Time used:  5.131900s
+
+------------------------------------
+
+IMM
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 44318322
+influence: 112053
+Memory Usage: 2982.95 MB
+Time used:  5.253119s
+
+------------------------------------
+
+IMM
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 44460286
+influence: 112057
+Memory Usage: 2993.84 MB
+Time used:  5.525662s
+
+------------------------------------
+
+IMM
+datasets: DBLP delta: 1/n
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 44772967
+influence: 112061
+Memory Usage: 3016.73 MB
+Time used:  6.018688s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 232111793
+Influence: 111955
+Memory Usage: 15016.9 MB
+Time used: 183.433s
+
+------------------------------------
+
+TIM_PLUS
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 232114903
+Influence: 111955
+Memory Usage: 15018.9 MB
+Time used: 183.702s
+
+------------------------------------
+
+TIM_PLUS
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 232122124
+Influence: 111955
+Memory Usage: 15019.1 MB
+Time used: 190.024s
+
+------------------------------------
+
+TIM_PLUS
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 232132454
+Influence: 111955
+Memory Usage: 15018.3 MB
+Time used: 192.157s
+
+------------------------------------
+
+TIM_PLUS
+datasets: DBLP delta: 1/n
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 232161544
+Influence: 111955
+Memory Usage: 15021.2 MB
+Time used: 182.114s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM ++++++++++++++++++++++++
+
+TIM
+datasets: DBLP delta: 0.1
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.1 
+k: 10000 epsilon: 0.1 delta: 0.1 model: LT
+Total Samples: 2072544199
+
+------------------------------------
+
+TIM
+datasets: DBLP delta: 0.05
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.05 
+k: 10000 epsilon: 0.1 delta: 0.05 model: LT
+Total Samples: 2072571967
+
+------------------------------------
+
+TIM
+datasets: DBLP delta: 0.01
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.01 
+k: 10000 epsilon: 0.1 delta: 0.01 model: LT
+Total Samples: 2072636440
+
+------------------------------------
+
+TIM
+datasets: DBLP delta: 0.001
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 -delta 0.001 
+k: 10000 epsilon: 0.1 delta: 0.001 model: LT
+Total Samples: 2072728682
+
+------------------------------------
+
+TIM
+datasets: DBLP delta: 1/n
+------------------------------------
+
+Arguments: ../tim -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 1.52759e-06 model: LT
+Total Samples: 2072988432
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of delta (Large K=10000) Over ***********************
+

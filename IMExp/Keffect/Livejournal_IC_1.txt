@@ -1,0 +1,552 @@
+
+*********************** Effect Of K(Small) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: Livejournal k: 1
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal k: 2
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal k: 5
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal k: 10
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal k: 20
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal k: 50
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal k: 100
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Livejournal k: 1
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal k: 2
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal k: 5
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal k: 10
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal k: 20
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal k: 50
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal k: 100
+------------------------------------
+
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Livejournal k: 1
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal k: 2
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal k: 5
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal k: 10
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal k: 20
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal k: 50
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal k: 100
+------------------------------------
+
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Livejournal k: 1
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 1 
+
+------------------------------------
+
+IMM
+datasets: Livejournal k: 2
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 2 
+
+------------------------------------
+
+IMM
+datasets: Livejournal k: 5
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 5 
+
+------------------------------------
+
+IMM
+datasets: Livejournal k: 10
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+
+------------------------------------
+
+IMM
+datasets: Livejournal k: 20
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 20 
+
+------------------------------------
+
+IMM
+datasets: Livejournal k: 50
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 50 
+
+------------------------------------
+
+IMM
+datasets: Livejournal k: 100
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 100 
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Livejournal k: 1
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 1 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal k: 2
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 2 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal k: 5
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 5 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal k: 10
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal k: 20
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 20 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal k: 50
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 50 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal k: 100
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 100 
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of K(Small) Over ***********************
+
+
+*********************** Effect Of K(Large) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: Livejournal k: 2500
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal k: 5000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal k: 10000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal k: 20000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA
+datasets: Livejournal k: 50000
+------------------------------------
+
+Arguments: ../SSA -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Livejournal k: 2500
+------------------------------------
+
+Arguments: ../SSA-Fix -m IC -i ../datasets/Livejournal.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 2.06289e-07 model: IC
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal k: 5000
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal k: 10000
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal k: 20000
+------------------------------------
+
+
+------------------------------------
+
+SSA-Fix
+datasets: Livejournal k: 50000
+------------------------------------
+
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Livejournal k: 2500
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal k: 5000
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal k: 10000
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal k: 20000
+------------------------------------
+
+
+------------------------------------
+
+DSSA
+datasets: Livejournal k: 50000
+------------------------------------
+
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Livejournal k: 2500
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 2500 
+
+------------------------------------
+
+IMM
+datasets: Livejournal k: 5000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 5000 
+
+------------------------------------
+
+IMM
+datasets: Livejournal k: 10000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+
+------------------------------------
+
+IMM
+datasets: Livejournal k: 20000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 20000 
+
+------------------------------------
+
+IMM
+datasets: Livejournal k: 50000
+------------------------------------
+
+Arguments: ../imm_discrete -model IC -dataset ../datasets/ -epsilon 0.1 -k 50000 
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Livejournal k: 2500
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 2500 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal k: 5000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 5000 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal k: 10000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 10000 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal k: 20000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 20000 
+
+------------------------------------
+
+TIM_PLUS
+datasets: Livejournal k: 50000
+------------------------------------
+
+Arguments: ../tim+ -model IC -dataset ../datasets/ -epsilon 0.1 -k 50000 
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of K(Large) Over ***********************
+

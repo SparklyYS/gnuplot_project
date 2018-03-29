@@ -1,0 +1,850 @@
+
+*********************** Effect Of K(Small) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: Orkut k: 1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 3021472
+influence: 13783.44
+Memory Usage: 1415 MB
+Time used: 3.84s
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 2
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 2078873
+influence: 22816.42
+Memory Usage: 1415.02 MB
+Time used: 3s
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 5
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 1258702
+influence: 34811.69
+Memory Usage: 1377.15 MB
+Time used: 1.97s
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 10
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 1067740
+influence: 44289.70
+Memory Usage: 1377.27 MB
+Time used: 1.76s
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 20
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 740878
+influence: 55990.72
+Memory Usage: 1365.27 MB
+Time used: 1.4s
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 50
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 573539
+influence: 82124.54
+Memory Usage: 1365.27 MB
+Time used: 1.2s
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 100
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 398235
+influence: 109208.21
+Memory Usage: 1347.81 MB
+Time used: 0.9s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Orkut k: 1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 2608773
+influence: 13636.91
+Memory Usage: 1415 MB
+Time used: 3.44s
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 2
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 1859628
+influence: 23274.92
+Memory Usage: 1415.05 MB
+Time used: 2.79s
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 5
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 1114091
+influence: 35091.00
+Memory Usage: 1377.15 MB
+Time used: 1.86s
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 10
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 942765
+influence: 44503.84
+Memory Usage: 1377.27 MB
+Time used: 1.68s
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 20
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 651970
+influence: 57328.13
+Memory Usage: 1365.27 MB
+Time used: 1.26s
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 50
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 505595
+influence: 82847.47
+Memory Usage: 1365.27 MB
+Time used: 1.19s
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 100
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 347951
+influence: 110710.29
+Memory Usage: 1347.81 MB
+Time used: 0.91s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Orkut k: 1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 2048000
+influence: 13702.97
+Memory: 1597.03 MB
+Time used: 5.93s
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 2
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 1024000
+influence: 22857.28
+Memory: 1478.71 MB
+Time used: 3.39s
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 5
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 512000
+influence: 35393.08
+Memory: 1392.3 MB
+Time used: 2.02s
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 10
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 512000
+influence: 44802.43
+Memory: 1392.3 MB
+Time used: 2.07s
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 20
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 512000
+influence: 57734.29
+Memory: 1392.32 MB
+Time used: 2.01s
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 50
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 256000
+influence: 81503.70
+Memory: 1368.03 MB
+Time used: 1.86s
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 100
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 256000
+influence: 107835.48
+Memory: 1368.02 MB
+Time used: 1.3s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Orkut k: 1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 2417115
+influence: 13878.1
+Memory Usage: 2497.64 MB
+Time used:  2.431701s
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 2
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 1927334
+influence: 22443.9
+Memory Usage: 2456.05 MB
+Time used:  1.150502s
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 5
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 1982059
+influence: 34854.6
+Memory Usage: 2455.03 MB
+Time used:  1.340342s
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 10
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 2398901
+influence: 43986.8
+Memory Usage: 2497 MB
+Time used:  0.805287s
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 20
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 3017713
+influence: 56792.6
+Memory Usage: 2536.79 MB
+Time used:  2.004501s
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 50
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 4186790
+influence: 82535.2
+Memory Usage: 2613.32 MB
+Time used:  0.503478s
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 100
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 5636269
+influence: 107594
+Memory Usage: 2711.23 MB
+Time used:  3.107007s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Orkut k: 1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 1 
+k: 1 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 10770508
+Influence: 13755.7
+Memory Usage: 10197.8 MB
+Time used: 674.765s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 2
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 2 
+k: 2 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 8938058
+Influence: 22680.5
+Memory Usage: 7230.42 MB
+Time used: 372.958s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 5
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 5 
+k: 5 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 9984731
+Influence: 34688.3
+Memory Usage: 5294.73 MB
+Time used: 155.488s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 10
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 12762542
+Influence: 44275.3
+Memory Usage: 4501.29 MB
+Time used: 106.392s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 20
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 20 
+k: 20 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 16890234
+Influence: 56574.5
+Memory Usage: 3867.43 MB
+Time used: 81.7588s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 50
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 50 
+k: 50 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 24261156
+Influence: 82349.3
+Memory Usage: 3948.38 MB
+Time used: 72.4979s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 100
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 100 
+k: 100 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 33093951
+Influence: 107544
+Memory Usage: 4533.5 MB
+Time used: 73.9652s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of K(Small) Over ***********************
+
+
+*********************** Effect Of K(Large) ***********************
+
+\n++++++++++++++++++++++++ SSA ++++++++++++++++++++++++\n
+SSA
+datasets: Orkut k: 2500
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 1849034
+influence: 292264.77
+Memory Usage: 1415.05 MB
+Time used: 2.96s
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 5000
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 2482515
+influence: 348731.58
+Memory Usage: 1479.25 MB
+Time used: 3.87s
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 10000
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 3724344
+influence: 419250.18
+Memory Usage: 1582.09 MB
+Time used: 6.16s
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 20000
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 6199053
+influence: 510802.35
+Memory Usage: 1789.38 MB
+Time used: 10.33s
+
+------------------------------------
+
+SSA
+datasets: Orkut k: 50000
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 11151214
+influence: 679169.58
+Memory Usage: 2190.2 MB
+Time used: 19.55s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Orkut k: 2500
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 2426235
+influence: 285529.80
+Memory Usage: 1479.23 MB
+Time used: 3.9s
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 5000
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 2313990
+influence: 347257.29
+Memory Usage: 1479.24 MB
+Time used: 3.8s
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 10000
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 3558366
+influence: 420121.50
+Memory Usage: 1582.15 MB
+Time used: 5.95s
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 20000
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 6042454
+influence: 510893.32
+Memory Usage: 1789.38 MB
+Time used: 10.11s
+
+------------------------------------
+
+SSA-Fix
+datasets: Orkut k: 50000
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 11016698
+influence: 679778.63
+Memory Usage: 2190.18 MB
+Time used: 19.04s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Orkut k: 2500
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 512000
+influence: 292782.02
+Memory: 1392.33 MB
+Time used: 2.07s
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 5000
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 1024000
+influence: 350993.38
+Memory: 1478.79 MB
+Time used: 3.51s
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 10000
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 2048000
+influence: 423215.25
+Memory: 1597.16 MB
+Time used: 6.42s
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 20000
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 2048000
+influence: 532165.38
+Memory: 1597.31 MB
+Time used: 6.71s
+
+------------------------------------
+
+DSSA
+datasets: Orkut k: 50000
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Orkut.bin -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 4096000
+influence: 708944.01
+Memory: 1849.37 MB
+Time used: 12.44s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Orkut k: 2500
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 33648454
+influence: 279319
+Memory Usage: 4551.41 MB
+Time used:  3.984470s
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 5000
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 50575362
+influence: 336027
+Memory Usage: 6293.61 MB
+Time used:  2.999715s
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 10000
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 75197204
+influence: 406148
+Memory Usage: 7334.51 MB
+Time used:  36.204628s
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 20000
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 109767474
+influence: 495977
+Memory Usage: 9580.73 MB
+Time used:  27.492933s
+
+------------------------------------
+
+IMM
+datasets: Orkut k: 50000
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 173787475
+influence: 659985
+Memory Usage: 15992 MB
+Time used:  22.004956s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Orkut k: 2500
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 2500 
+k: 2500 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 196327483
+Influence: 278994
+Memory Usage: 15385.8 MB
+Time used: 296.58s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 5000
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 5000 
+k: 5000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 292162139
+Influence: 335830
+Memory Usage: 21656.9 MB
+Time used: 438.121s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 10000
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 425724448
+Influence: 405898
+Memory Usage: 30574.2 MB
+Time used: 626.627s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 20000
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 20000 
+k: 20000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 599844687
+Influence: 495510
+Memory Usage: 41877.8 MB
+Time used: 893.34s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Orkut k: 50000
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 50000 
+k: 50000 epsilon: 0.1 delta: 3.25474e-07 model: LT
+Total Samples: 860921300
+Influence: 659121
+Memory Usage: 59353.1 MB
+Time used: 1291s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of K(Large) Over ***********************
+

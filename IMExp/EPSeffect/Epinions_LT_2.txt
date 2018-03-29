@@ -1,0 +1,719 @@
+
+*********************** Effect Of epsilon (Small K=10) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: Epinions epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Epinions.bin -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 7.58564e-06 model: LT
+Total Samples: 11581
+influence: 40655.76
+Memory Usage: 47.2227 MB
+Time used: 0.02s
+
+------------------------------------
+
+SSA
+datasets: Epinions epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Epinions.bin -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 7.58564e-06 model: LT
+Total Samples: 15236
+influence: 40655.76
+Memory Usage: 47.2227 MB
+Time used: 0.01s
+
+------------------------------------
+
+SSA
+datasets: Epinions epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Epinions.bin -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 7.58564e-06 model: LT
+Total Samples: 20840
+influence: 41328.08
+Memory Usage: 47.2227 MB
+Time used: 0.02s
+
+------------------------------------
+
+SSA
+datasets: Epinions epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Epinions.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 7.58564e-06 model: LT
+Total Samples: 38149
+influence: 41328.08
+Memory Usage: 47.2227 MB
+Time used: 0.02s
+
+------------------------------------
+
+SSA
+datasets: Epinions epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Epinions.bin -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 7.58564e-06 model: LT
+Total Samples: 4845758
+influence: 40974.07
+Memory Usage: 161.242 MB
+Time used: 2.2s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Epinions epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Epinions.bin -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 7.58564e-06 model: LT
+Total Samples: 11325
+influence: 40945.78
+Memory Usage: 47.2227 MB
+Time used: 0.02s
+
+------------------------------------
+
+SSA-Fix
+datasets: Epinions epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Epinions.bin -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 7.58564e-06 model: LT
+Total Samples: 14153
+influence: 40998.51
+Memory Usage: 47.2227 MB
+Time used: 0.01s
+
+------------------------------------
+
+SSA-Fix
+datasets: Epinions epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Epinions.bin -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 7.58564e-06 model: LT
+Total Samples: 18797
+influence: 40998.51
+Memory Usage: 47.2227 MB
+Time used: 0.01s
+
+------------------------------------
+
+SSA-Fix
+datasets: Epinions epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Epinions.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 7.58564e-06 model: LT
+Total Samples: 32630
+influence: 40998.51
+Memory Usage: 47.2227 MB
+Time used: 0.01s
+
+------------------------------------
+
+SSA-Fix
+datasets: Epinions epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Epinions.bin -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 7.58564e-06 model: LT
+Total Samples: 4204012
+influence: 40949.83
+Memory Usage: 161.23 MB
+Time used: 1.65s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Epinions epsilon: 0.3
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Epinions.bin -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 7.58564e-06 model: LT
+Total Samples: 3200
+influence: 40619.50
+Memory: 46.7109 MB
+Time used: 0.01s
+
+------------------------------------
+
+DSSA
+datasets: Epinions epsilon: 0.2
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Epinions.bin -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 7.58564e-06 model: LT
+Total Samples: 3600
+influence: 41232.87
+Memory: 46.7109 MB
+Time used: 0.01s
+
+------------------------------------
+
+DSSA
+datasets: Epinions epsilon: 0.15
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Epinions.bin -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 7.58564e-06 model: LT
+Total Samples: 6000
+influence: 42097.07
+Memory: 46.7109 MB
+Time used: 0.03s
+
+------------------------------------
+
+DSSA
+datasets: Epinions epsilon: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Epinions.bin -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 7.58564e-06 model: LT
+Total Samples: 26400
+influence: 41630.68
+Memory: 49.4883 MB
+Time used: 0.03s
+
+------------------------------------
+
+DSSA
+datasets: Epinions epsilon: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Epinions.bin -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 7.58564e-06 model: LT
+Total Samples: 1259600
+influence: 40903.10
+Memory: 244.332 MB
+Time used: 1.42s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Epinions epsilon: 0.3
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 7.58564e-06 model: LT
+Total Samples: 12079
+influence: 41021.6
+Memory Usage: 37.0742 MB
+Time used:  0.006036s
+
+------------------------------------
+
+IMM
+datasets: Epinions epsilon: 0.2
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 7.58564e-06 model: LT
+Total Samples: 24096
+influence: 40751.4
+Memory Usage: 37.0117 MB
+Time used:  0.009788s
+
+------------------------------------
+
+IMM
+datasets: Epinions epsilon: 0.15
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 7.58564e-06 model: LT
+Total Samples: 40179
+influence: 41247.9
+Memory Usage: 39.543 MB
+Time used:  0.016237s
+
+------------------------------------
+
+IMM
+datasets: Epinions epsilon: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 7.58564e-06 model: LT
+Total Samples: 85005
+influence: 41127.4
+Memory Usage: 41.3398 MB
+Time used:  0.026004s
+
+------------------------------------
+
+IMM
+datasets: Epinions epsilon: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 7.58564e-06 model: LT
+Total Samples: 7565883
+influence: 40961.7
+Memory Usage: 591.852 MB
+Time used:  2.003875s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Epinions epsilon: 0.3
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.3 -k 10 
+k: 10 epsilon: 0.3 delta: 7.58564e-06 model: LT
+Total Samples: 71510
+Influence: 40602.3
+Memory Usage: 40.3359 MB
+Time used: 0.0651372s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Epinions epsilon: 0.2
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.2 -k 10 
+k: 10 epsilon: 0.2 delta: 7.58564e-06 model: LT
+Total Samples: 140680
+Influence: 40835.7
+Memory Usage: 46.7734 MB
+Time used: 0.104833s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Epinions epsilon: 0.15
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.15 -k 10 
+k: 10 epsilon: 0.15 delta: 7.58564e-06 model: LT
+Total Samples: 228890
+Influence: 40931.1
+Memory Usage: 54.3945 MB
+Time used: 0.148846s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Epinions epsilon: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10 
+k: 10 epsilon: 0.1 delta: 7.58564e-06 model: LT
+Total Samples: 463166
+Influence: 40967.8
+Memory Usage: 72.0977 MB
+Time used: 0.305497s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Epinions epsilon: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.01 -k 10 
+k: 10 epsilon: 0.01 delta: 7.58564e-06 model: LT
+Total Samples: 33244690
+Influence: 40966.4
+Memory Usage: 2499.33 MB
+Time used: 18.9803s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of epsilon (Small K=10) Over ***********************
+
+
+*********************** Effect Of epsilon (Large K=10000) ***********************
+
+
+++++++++++++++++++++++++ SSA ++++++++++++++++++++++++
+
+SSA
+datasets: Epinions epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Epinions.bin -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 7.58564e-06 model: LT
+Total Samples: 55390
+influence: 92427.25
+Memory Usage: 51.1641 MB
+Time used: 0.08s
+
+------------------------------------
+
+SSA
+datasets: Epinions epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Epinions.bin -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 7.58564e-06 model: LT
+Total Samples: 216999
+influence: 78511.90
+Memory Usage: 63.3242 MB
+Time used: 0.26s
+
+------------------------------------
+
+SSA
+datasets: Epinions epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Epinions.bin -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 7.58564e-06 model: LT
+Total Samples: 612581
+influence: 72957.45
+Memory Usage: 99.3633 MB
+Time used: 0.62s
+
+------------------------------------
+
+SSA
+datasets: Epinions epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Epinions.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 7.58564e-06 model: LT
+Total Samples: 695087
+influence: 72929.17
+Memory Usage: 99.3711 MB
+Time used: 0.65s
+
+------------------------------------
+
+SSA
+datasets: Epinions epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA -m LT -i ../datasets/Epinions.bin -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 7.58564e-06 model: LT
+Total Samples: 22150681
+influence: 69133.86
+Memory Usage: 1008.22 MB
+Time used: 13.52s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ SSA-Fix ++++++++++++++++++++++++
+
+SSA-Fix
+datasets: Epinions epsilon: 0.3
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Epinions.bin -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 7.58564e-06 model: LT
+Total Samples: 65258
+influence: 91040.42
+Memory Usage: 51.8164 MB
+Time used: 0.1s
+
+------------------------------------
+
+SSA-Fix
+datasets: Epinions epsilon: 0.2
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Epinions.bin -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 7.58564e-06 model: LT
+Total Samples: 375102
+influence: 74970.58
+Memory Usage: 77.2617 MB
+Time used: 0.49s
+
+------------------------------------
+
+SSA-Fix
+datasets: Epinions epsilon: 0.15
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Epinions.bin -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 7.58564e-06 model: LT
+Total Samples: 601988
+influence: 72997.24
+Memory Usage: 99.3828 MB
+Time used: 0.63s
+
+------------------------------------
+
+SSA-Fix
+datasets: Epinions epsilon: 0.1
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Epinions.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 7.58564e-06 model: LT
+Total Samples: 1203161
+influence: 71285.68
+Memory Usage: 149.508 MB
+Time used: 1.52s
+
+------------------------------------
+
+SSA-Fix
+datasets: Epinions epsilon: 0.01
+------------------------------------
+
+Arguments: ../SSA-Fix -m LT -i ../datasets/Epinions.bin -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 7.58564e-06 model: LT
+Total Samples: 20285978
+influence: 69132.31
+Memory Usage: 1008.49 MB
+Time used: 13.94s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ SSA-Fix Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ DSSA ++++++++++++++++++++++++
+
+DSSA
+datasets: Epinions epsilon: 0.3
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Epinions.bin -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 7.58564e-06 model: LT
+Total Samples: 51200
+influence: 91852.19
+Memory: 53.5195 MB
+Time used: 0.1s
+
+------------------------------------
+
+DSSA
+datasets: Epinions epsilon: 0.2
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Epinions.bin -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 7.58564e-06 model: LT
+Total Samples: 115200
+influence: 82655.70
+Memory: 62.2656 MB
+Time used: 0.18s
+
+------------------------------------
+
+DSSA
+datasets: Epinions epsilon: 0.15
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Epinions.bin -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 7.58564e-06 model: LT
+Total Samples: 192000
+influence: 78583.91
+Memory: 74.4297 MB
+Time used: 0.28s
+
+------------------------------------
+
+DSSA
+datasets: Epinions epsilon: 0.1
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Epinions.bin -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 7.58564e-06 model: LT
+Total Samples: 422400
+influence: 74076.79
+Memory: 104.797 MB
+Time used: 0.63s
+
+------------------------------------
+
+DSSA
+datasets: Epinions epsilon: 0.01
+------------------------------------
+
+Aruguments: ../DSSA -m LT -i ../datasets/Epinions.bin -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 7.58564e-06 model: LT
+Total Samples: 10006400
+influence: 69160.49
+Memory: 1630.51 MB
+Time used: 14.1s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ DSSA Over++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ IMM ++++++++++++++++++++++++
+
+IMM
+datasets: Epinions epsilon: 0.3
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 7.58564e-06 model: LT
+Total Samples: 1337967
+influence: 70661.1
+Memory Usage: 139.91 MB
+Time used:  0.749830s
+
+------------------------------------
+
+IMM
+datasets: Epinions epsilon: 0.2
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 7.58564e-06 model: LT
+Total Samples: 2774701
+influence: 69762.4
+Memory Usage: 253.562 MB
+Time used:  0.897332s
+
+------------------------------------
+
+IMM
+datasets: Epinions epsilon: 0.15
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 7.58564e-06 model: LT
+Total Samples: 4702078
+influence: 69408.7
+Memory Usage: 390.973 MB
+Time used:  1.443179s
+
+------------------------------------
+
+IMM
+datasets: Epinions epsilon: 0.1
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 7.58564e-06 model: LT
+Total Samples: 10023283
+influence: 69113.9
+Memory Usage: 790.988 MB
+Time used:  2.926669s
+
+------------------------------------
+
+IMM
+datasets: Epinions epsilon: 0.01
+------------------------------------
+
+Arguments: ../imm_discrete -model LT -dataset ../datasets/ -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 7.58564e-06 model: LT
+Total Samples: 895630411
+influence: 68828.1
+Memory Usage: 64431.3 MB
+Time used:  252.784872s
+
+------------------------------------
+
+
+++++++++++++++++++++++++ IMM Over ++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++ TIM_PLUS ++++++++++++++++++++++++
+
+TIM_PLUS
+datasets: Epinions epsilon: 0.3
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.3 -k 10000 
+k: 10000 epsilon: 0.3 delta: 7.58564e-06 model: LT
+Total Samples: 3735622
+Influence: 69457.4
+Memory Usage: 315.082 MB
+Time used: 2.28233s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Epinions epsilon: 0.2
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.2 -k 10000 
+k: 10000 epsilon: 0.2 delta: 7.58564e-06 model: LT
+Total Samples: 8674471
+Influence: 69140.4
+Memory Usage: 686.598 MB
+Time used: 5.40399s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Epinions epsilon: 0.15
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.15 -k 10000 
+k: 10000 epsilon: 0.15 delta: 7.58564e-06 model: LT
+Total Samples: 17514070
+Influence: 68983.9
+Memory Usage: 1352.06 MB
+Time used: 10.7096s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Epinions epsilon: 0.1
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.1 -k 10000 
+k: 10000 epsilon: 0.1 delta: 7.58564e-06 model: LT
+Total Samples: 43530233
+Influence: 68891.9
+Memory Usage: 3295.39 MB
+Time used: 41.4903s
+
+------------------------------------
+
+TIM_PLUS
+datasets: Epinions epsilon: 0.01
+------------------------------------
+
+Arguments: ../tim+ -model LT -dataset ../datasets/ -epsilon 0.01 -k 10000 
+k: 10000 epsilon: 0.01 delta: 7.58564e-06 model: LT
+Total Samples: 5320590267
+
+------------------------------------
+
+
+++++++++++++++++++++++++ TIM_PLUS Over ++++++++++++++++++++++++
+
+
+*********************** Effect Of epsilon (Large K=10000) Over ***********************
+
